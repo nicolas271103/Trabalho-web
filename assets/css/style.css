@@ -125,6 +125,11 @@ body {
     color: #000000be;
 }
 
+.a {
+    display: flex;
+    align-items: right;
+}
+
 .gender-group {
     display: flex;
     justify-content: space-between;
@@ -200,11 +205,13 @@ body {
     }
     
     .gender-inputs {
-        margin: 2rem;
+        margin: 1rem;
     }
 
     .gender-group {
         flex-direction: column;
+        margin-top: 0.5rem;
+        padding: 0 0.5rem;
     }
 
     .gender-input {
