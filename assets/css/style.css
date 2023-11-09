@@ -51,15 +51,13 @@ body {
  justify-content: space-between;
 }
 
-.login-button {
-  display: flex;
-  align-items: center;
-}
-
 .login-button button {
+    width: 100%;
+    margin-top:40rem;
+    margin-right: 40px;
     border: none;
     background-color: #031b2bd7;
-    padding: 0.4rem 1rem;
+    padding: 2rem;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -70,18 +68,19 @@ body {
 
 .login-button button a {
     text-decoration: none;
+    font-size: 1rem;
     font-weight: 500;
     color: #fff;
 }
 
-.form-header h1::after {
+.form-header h1::{
     content: '';
     display: block;
-    width: 5rem;
-    height: 0.3rem;
+    width: 1rem;
+    height: 1rem;
     background-color: #031b2bd7;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     border-radius: 10px;
 }
 
@@ -154,10 +153,10 @@ body {
 
 .continue-button button {
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     border: none;
     background-color: #031b2bd7;
-    padding: 0.62rem;
+    padding: 2rem;
     border-radius: 5px;
     cursor: pointer;
 }
